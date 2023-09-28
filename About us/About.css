@@ -1,0 +1,112 @@
+/* Navbar */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vavication */
+
+nav{
+    display: flex;
+    height: 110px;
+    width: auto;
+    /* border: 2px solid red; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    color: #445599;
+}
+#logo{
+    margin: 20px 80px;
+}
+
+#logo>img{
+    height: 65px;
+    width: 290px;
+}
+
+#content{
+    display: flex;
+    margin-left: 345px;
+    margin-top: 30px;
+}
+.content{
+    height: 10px;
+    width: auto;
+    margin: 10px 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* content_about */
+
+#content_about{
+    width: 40%;
+    margin: auto;
+    /* font-size: 20px; */
+    color: #445599;
+}
+
+
+#content_about>div>h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    font-size: 50px;
+}
+
+#content_about>div>h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 80%;
+    padding-bottom: 6%;
+    font-size: 30px;
+}
+
+#content_about>div>h3{
+    text-align: center;
+    font-weight: 100px;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+#content_about>div>div{
+    font-size: 20px;
+}
+
+#cont1>div,li{
+    padding-top: 15px;
+}
+#cont1 ol{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#cont2{
+    font-size: 20px;
+}
+#cont1>div{
+    padding-top: 15px;
+}
+
+/* Footer */
+#con{
+    height: 230px;
+    width: auto;
+    /* border: 2px solid; */
+    text-align: center;
+    padding-top: 80px;
+}
+#con img{
+    height: 50px;
+    width: 50px;
+}
+#con p{
+    padding-top: 30px;
+    color: #3d94d8;
+}

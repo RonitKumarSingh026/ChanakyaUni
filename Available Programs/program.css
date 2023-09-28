@@ -1,0 +1,202 @@
+/* Navbar */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vavication */
+
+nav{
+    display: flex;
+    height: 110px;
+    width: auto;
+    /* border: 2px solid red; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    color: #445599;
+}
+#logo{
+    margin: 20px 80px;
+}
+
+#logo>img{
+    height: 65px;
+    width: 290px;
+}
+
+#content{
+    display: flex;
+    margin-left: 345px;
+    margin-top: 30px;
+}
+.content{
+    height: 10px;
+    width: auto;
+    margin: 10px 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* content_about */
+
+
+/* coursers list */
+#cources{
+    width: 170vh;
+    height: auto;
+    /* border: 5px solid red; */
+    margin: auto;
+    text-align: center;
+    padding-top:8vh;
+}
+
+
+#h1{
+    color: #f3a60d;   
+}
+#cources>p{
+    color: #2843a0;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#courceslist{
+    height: auto;
+    width: auto;
+    margin-top: 10hv;
+    /* background-color: aqua; */
+}
+
+.cour1,.cour2,.cour3{
+    height: 70vh;
+    width: auto;
+    display: flex;
+    /* border: 2px dotted blue; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.couc1,.couc2,.couc3{
+    width: auto;
+    height: 380px;
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 45px white;
+}
+
+#courceslist img{
+    width: 37.4vh;
+    height: 37.4vh;
+}
+.bth{
+    background-color:rgb(243, 166, 13);
+    width: auto;
+    height: 53%;
+    margin-top: -4px;
+    color: white;
+    /* text-align: center; */
+}
+
+.bth>h1{
+    color: white;
+    font-size: 21px;
+    padding-top: 40px;
+}
+.bth>p{
+    color: white;
+    font-size: 20px;
+    margin-top: 55px;
+    width: 250px;
+    text-align: center;
+    padding-left: 35px;
+}
+
+.bth div{
+    height: 40px;
+    width: 130px;
+    border: 2px solid;
+    padding: 7px 10px;
+    color: white;
+    background-color: #019875;
+    border-radius: 15px;
+    margin-left: 80px;
+}
+
+#hr1{
+    font-weight: 900;
+}
+
+
+
+/* Application form */
+
+article{
+    /* border: 5px solid red; */
+    height: 900px;
+    width: 100%;
+    background-color: #f3a60d;
+}
+
+#form>h1{
+    text-align: center;
+    padding-top: 12%;
+    color: #eaf4f6;
+    font-size: 42px;
+    font-family: ui-monospace;
+    padding-bottom: 6%;
+}
+#form1>div{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+    color: #eaf4f6;
+}
+#name,#phone,select{
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-top: none;
+    border-left:none ;
+    border-right:none ;
+    border-bottom: 2px solid #eaf4f6;
+    background-color: #f3a60d;
+    color: #eaf4f6;
+}
+input::placeholder{
+    color: #eaf4f6;
+}
+#submit{
+    height: 50px;
+    background-color:#eaf4f6;
+    color: #445599;
+    font-size: 20px;
+    width: 30%;
+    margin-top : 8%;
+    border: none;
+    margin-left: 30%;
+    /* margin-bottom: 80%; */
+}
+
+
+/* Footer */
+#con{
+    height: 230px;
+    width: auto;
+    /* border: 2px solid; */
+    text-align: center;
+    padding-top: 80px;
+}
+#con img{
+    height: 50px;
+    width: 50px;
+}
+#con p{
+    padding-top: 30px;
+    color: #3d94d8;
+}

@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+#main{
+    text-align: center;
+}
+#cross{
+    font-size: 40px;
+    padding-left: 90%;
+    padding-top: 50px;
+}
+h1{
+    font-size: 50px;
+    padding-top: 8%;
+    color: dodgerblue;
+    padding-bottom: 2%;
+}
+
+#p,#main>a{
+    margin-top: 50px;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+#main>a{
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+#login div{
+    height: 44px;
+    width: 300px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    font-size:20px ;
+    background-color:blueviolet;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    padding-top: 15px;
+}

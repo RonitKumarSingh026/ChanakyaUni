@@ -1,0 +1,90 @@
+/* Navbar */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vavication */
+
+nav{
+    display: flex;
+    height: 110px;
+    width: auto;
+    /* border: 2px solid red; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    color: #445599;
+}
+#logo{
+    margin: 20px 80px;
+}
+
+#logo>img{
+    height: 65px;
+    width: 290px;
+}
+
+#content{
+    display: flex;
+    margin-left: 345px;
+    margin-top: 30px;
+}
+.content{
+    height: 10px;
+    width: auto;
+    margin: 10px 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* Food backs */
+#r1{
+    width: 80%;
+    margin-left: 15%;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+#r1 img{
+    height: 80%;
+}
+
+#main_fid{
+    width: 80%;
+    margin-left: 10%;
+    /* border: 2px solid; */
+    height: auto;
+}
+
+#r2{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: -100px;
+}
+#cet{
+    width: 115%;
+    padding-left: 10px;
+}
+
+/* Footer */
+#con{
+    height: 230px;
+    width: auto;
+    /* border: 2px solid; */
+    text-align: center;
+    padding-top: 80px;
+}
+#con img{
+    height: 50px;
+    width: 50px;
+}
+#con p{
+    padding-top: 30px;
+    color: #3d94d8;
+}

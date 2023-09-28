@@ -1,0 +1,100 @@
+/* Navbar */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vavication */
+
+nav{
+    display: flex;
+    height: 110px;
+    width: auto;
+    /* border: 2px solid red; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    color: #445599;
+}
+#logo{
+    margin: 20px 80px;
+}
+
+#logo>img{
+    height: 65px;
+    width: 290px;
+}
+
+#content{
+    display: flex;
+    margin-left: 345px;
+    margin-top: 30px;
+}
+.content{
+    height: 10px;
+    width: auto;
+    margin: 10px 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* content_about */
+#content_about{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    color: #445599;
+}
+#content_about h2{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#content_about h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#content_about h3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#cont1,#cont2{
+    font-size: 20px;
+}
+#cont1 div,#cont2 div{
+    padding-top: 20px;
+}
+ol{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+li{
+    padding-top: 10px;
+}
+
+
+
+/* Footer */
+#con{
+    height: 230px;
+    width: auto;
+    /* border: 2px solid; */
+    text-align: center;
+    padding-top: 80px;
+}
+#con img{
+    height: 50px;
+    width: 50px;
+}
+#con p{
+    padding-top: 30px;
+    color: #3d94d8;
+}
